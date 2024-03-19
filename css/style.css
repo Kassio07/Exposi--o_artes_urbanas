@@ -56,14 +56,12 @@ header ul li a{
     color: #888;
 }
 
-.container{
-    margin-bottom: 200px;
-}
-
 
 
 .img-1{
     background-image: url("../img/g_1.jpg");
+    background-position: center;
+    background-size: cover;
     background-color: red;
     position: relative;
 
@@ -85,6 +83,7 @@ header ul li a{
     position: absolute;
     bottom: 20px;
     left: 20px;
+    opacity: 0.8;
 }
 
 .text-img1>h1{
@@ -95,4 +94,66 @@ header ul li a{
     font-size: 1rem;
     opacity: 0.5;
     margin: 15px 0;
+}
+
+
+.row{
+
+}
+
+.col{
+    padding: 15px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.card>span{
+    margin: 10px 0;
+}
+
+.card>img{
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.card>h1{
+    font-size:1.7rem;
+}
+
+.container>h2{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container{
+    border-bottom: 1px solid #8888;
+}
+
+footer{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.iconsFooter>i{
+    margin-right: 25px;
+    font-size: 1.5rem;
+}
+.iconsFooter{
+    margin: 20px 0;
+}
+
+@media (max-width: 576px){
+    .mobil{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card>img{
+        height: 300px;
+        margin-bottom: 10px;
+    }
 }
