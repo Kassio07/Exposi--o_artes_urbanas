@@ -156,4 +156,14 @@ footer{
         height: 300px;
         margin-bottom: 10px;
     }
+
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row-cols-2>*{
+        width: 100%;
+    }
 }
