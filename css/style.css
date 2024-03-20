@@ -96,13 +96,8 @@ header ul li a{
     margin: 15px 0;
 }
 
-
-.row{
-
-}
-
-.col{
-    padding: 15px;
+.row>*{
+    padding-left: 0;
 }
 
 .card{
@@ -131,6 +126,7 @@ header ul li a{
 
 .container{
     border-bottom: 1px solid #8888;
+    /* padding-left: 0; */
 }
 
 footer{
@@ -146,7 +142,7 @@ footer{
     margin: 20px 0;
 }
 
-@media (max-width: 576px){
+/* @media (max-width: 576px){
     .mobil{
         display:flex;
         flex-direction: column;
@@ -166,4 +162,4 @@ footer{
     .row-cols-2>*{
         width: 100%;
     }
-}
+} */
